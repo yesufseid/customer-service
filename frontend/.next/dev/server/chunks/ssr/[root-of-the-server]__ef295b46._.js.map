@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/seid%20yesuf/Desktop/Projects/widget-builder-website/frontend/app/dashboard/test/page.tsx"],"sourcesContent":["\r\nimport Head from 'next/head'\r\n\r\nexport default function Page() {\r\n  return (\r\n    <>\r\n      <Head>\r\n        <script\r\n          src=\"http://localhost:3001/widget/widget.js\"\r\n          data-widget-id=\"widget_001\"\r\n          data-business-name=\"My Business\"\r\n          data-welcome-message=\"Hello! How can I assist you?\"\r\n          data-color=\"#0F62FE\"\r\n          data-position=\"right\"\r\n          data-shape=\"round\"\r\n          async\r\n        ></script>\r\n      </Head>\r\n\r\n      <main>\r\n        <h1>Hello World</h1>\r\n      </main>\r\n    </>\r\n  )\r\n}\r\n"],"names":[],"mappings":";;;;;AACA;;;AAEe,SAAS;IACtB,qBACE;;0BACE,0RAAC,2NAAI;0BACH,cAAA,0RAAC;oBACC,KAAI;oBACJ,kBAAe;oBACf,sBAAmB;oBACnB,wBAAqB;oBACrB,cAAW;oBACX,iBAAc;oBACd,cAAW;oBACX,KAAK;;;;;;;;;;;0BAIT,0RAAC;0BACC,cAAA,0RAAC;8BAAG;;;;;;;;;;;;;AAIZ"}}]
+}

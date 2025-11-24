@@ -1,0 +1,6 @@
+{
+  "/api/widget/save/route": "app/api/widget/save/route.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/dashboard/test/page": "app/dashboard/test/page.js",
+  "/page": "app/page.js"
+}
