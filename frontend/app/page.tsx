@@ -3,26 +3,7 @@ import { Button } from "@/components/ui/button"
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-background to-secondary/20">
-      {/* Navigation */}
-      <nav className="border-b border-border/40 backdrop-blur-sm sticky top-0 z-50 bg-background/95">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">WB</span>
-            </div>
-            <span className="font-bold text-lg">WidgetBuilder</span>
-          </div>
-          <div className="flex items-center gap-4">
-            <a href="#features" className="text-sm text-muted-foreground hover:text-foreground transition">
-              Features
-            </a>
-            <a href="#how-it-works" className="text-sm text-muted-foreground hover:text-foreground transition">
-              How It Works
-            </a>
-          </div>
-        </div>
-      </nav>
+    <main className="min-h-screen bg-linear-to-b from-background to-secondary/20">
 
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">

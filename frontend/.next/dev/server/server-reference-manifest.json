@@ -1,5 +1,21 @@
 {
-  "node": {},
+  "node": {
+    "7fab498e336b4ca378dca1520c2caf4e52556752a8": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/customer-service/frontend/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/customer-service/frontend/components/Header/Header.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "default",
+          "filename": "customer-service/frontend/components/Header/Header.tsx"
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "filename": "customer-service/frontend/components/Header/Header.tsx",
+      "exportedName": "default"
+    }
+  },
   "edge": {},
   "encryptionKey": "gJEFNyFFPVNiE96XKuSOjyaTUQpIJjO4oGCNEYNVEFs="
 }

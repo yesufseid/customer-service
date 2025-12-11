@@ -1,0 +1,20 @@
+{
+  "node": {
+    "7fcb698c2376710494958c7381f8b6ba7630404caa": {
+      "workers": {
+        "app/login/page": {
+          "moduleId": "[project]/customer-service/frontend/.next-internal/server/app/login/page/actions.js { ACTIONS_MODULE0 => \"[project]/customer-service/frontend/components/Header.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "default",
+          "filename": "customer-service/frontend/components/Header.tsx"
+        }
+      },
+      "layer": {
+        "app/login/page": "rsc"
+      },
+      "exportedName": "default",
+      "filename": "customer-service/frontend/components/Header.tsx"
+    }
+  },
+  "edge": {}
+}

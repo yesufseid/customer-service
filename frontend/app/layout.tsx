@@ -2,6 +2,9 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
+import Header from "@/components/Header/Header"
+import SigninModal from "@/components/Header/SigninModal";
+import SignupModal from "@/components/Header/SignupModal";
 import "./globals.css"
 
 const _geist = Geist({ subsets: ["latin"] })
@@ -38,8 +41,11 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`font-sans antialiased`}>
+        <Header />
+         <SigninModal />
+        <SignupModal />
         {children}
-        <Analytics />
+        {/* <Analytics /> */}
       </body>
     </html>
   )
