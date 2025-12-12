@@ -61,25 +61,6 @@ export default function DashboardPage() {
 >
 </Script>
     <div className="min-h-screen bg-background">
-      {/* Header */}
-      <div className="border-b border-border/40 bg-card/50 backdrop-blur-sm sticky top-0 z-40">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold">WB</span>
-              </div>
-              <div>
-                <h1 className="text-2xl font-bold">Widget Builder</h1>
-                <p className="text-sm text-muted-foreground">Customize your AI chat widget</p>
-              </div>
-            </div>
-            <a href="/" className="text-sm text-muted-foreground hover:text-foreground transition">
-              ← Back to Home
-            </a>
-          </div>
-        </div>
-      </div>
 
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

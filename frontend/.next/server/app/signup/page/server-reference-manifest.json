@@ -1,0 +1,20 @@
+{
+  "node": {
+    "7f1401794691c9dae16da80495adeb6a01769d8066": {
+      "workers": {
+        "app/signup/page": {
+          "moduleId": 16415,
+          "async": false,
+          "exportedName": "default",
+          "filename": "customer-service/frontend/components/Header/Header.tsx"
+        }
+      },
+      "layer": {
+        "app/signup/page": "rsc"
+      },
+      "exportedName": "default",
+      "filename": "customer-service/frontend/components/Header/Header.tsx"
+    }
+  },
+  "edge": {}
+}
