@@ -1,0 +1,56 @@
+{
+  "node": {
+    "7f1401794691c9dae16da80495adeb6a01769d8066": {
+      "workers": {
+        "app/_not-found/page": {
+          "moduleId": 58244,
+          "async": false,
+          "exportedName": "default",
+          "filename": "customer-service/frontend/components/Header/Header.tsx"
+        },
+        "app/dashboard/page": {
+          "moduleId": 71366,
+          "async": false,
+          "exportedName": "default",
+          "filename": "customer-service/frontend/components/Header/Header.tsx"
+        },
+        "app/dashboard/test/page": {
+          "moduleId": 31938,
+          "async": false,
+          "exportedName": "default",
+          "filename": "customer-service/frontend/components/Header/Header.tsx"
+        },
+        "app/login/page": {
+          "moduleId": 54308,
+          "async": false,
+          "exportedName": "default",
+          "filename": "customer-service/frontend/components/Header/Header.tsx"
+        },
+        "app/page": {
+          "moduleId": 91742,
+          "async": false,
+          "exportedName": "default",
+          "filename": "customer-service/frontend/components/Header/Header.tsx"
+        },
+        "app/signup/page": {
+          "moduleId": 16415,
+          "async": false,
+          "exportedName": "default",
+          "filename": "customer-service/frontend/components/Header/Header.tsx"
+        }
+      },
+      "layer": {
+        "app/_not-found/page": "rsc",
+        "app/dashboard/page": "rsc",
+        "app/dashboard/test/page": "rsc",
+        "app/login/page": "rsc",
+        "app/page": "rsc",
+        "app/signup/page": "rsc"
+      },
+      "filename": "customer-service/frontend/components/Header/Header.tsx",
+      "exportedName": "default"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "ziBgdBaZ4ukbyCAbRFjJDjNVKpptT8FFIX2Wzm3iZp8="
+}

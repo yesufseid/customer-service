@@ -1,0 +1,20 @@
+{
+  "node": {
+    "7f1401794691c9dae16da80495adeb6a01769d8066": {
+      "workers": {
+        "app/dashboard/test/page": {
+          "moduleId": 31938,
+          "async": false,
+          "exportedName": "default",
+          "filename": "customer-service/frontend/components/Header/Header.tsx"
+        }
+      },
+      "layer": {
+        "app/dashboard/test/page": "rsc"
+      },
+      "exportedName": "default",
+      "filename": "customer-service/frontend/components/Header/Header.tsx"
+    }
+  },
+  "edge": {}
+}
