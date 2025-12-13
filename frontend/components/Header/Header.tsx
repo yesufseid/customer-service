@@ -1,8 +1,10 @@
-"use server";
+import { unstable_noStore as noStore } from 'next/cache';
 import { supabaseServer } from "@/lib/supabase-server";
 import AuthButtons from "@/components/Header/AuthButtons";
 
 const Header = async () => {
+  noStore();
+
   const supabase = await supabaseServer();
 
   // Only call getSession — this is safe in SSR
